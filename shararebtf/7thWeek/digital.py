@@ -12,7 +12,7 @@ hr = dt.datetime.now().hour
 while True:
 	tm.ht()
 	tm.clear()
-	tm.write(str(hr).zfill(2) + ":" + str(min).zfill(2) + ":" + str(sec).zfill(2), font=("Arial Narrow", 35, "bold"))
+	tm.write(str(hr).zfill(2) + ":" + str(min).zfill(2) + ":" + str(sec).zfill(2), font=("Arial Narrow", 40, "bold"))
 	tm.write(dt.date.today(), font=("Arial Narrow", 7, "bold"))
 	time.sleep(1)
 	sec += 1
